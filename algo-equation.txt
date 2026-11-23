@@ -1,0 +1,13 @@
+DEBUT
+    Saisir(a,b,c)
+    Calculer delta = bb - 4 a * c
+        Si delta > 0
+            (-b - racine(delta)) / (2 * a)
+            ou
+            (-b + racine(delta)) / (2 * a)
+        Sinon si delta == 0
+            (-b) / (2 * a)
+        Sinon
+            Aucun résultat possible
+    Afficher(x)
+FIN
